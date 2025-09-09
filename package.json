@@ -1,5 +1,5 @@
 {
-  "name": "@dolphfi_/haiti-utils",
+  "name": "haiti-utils",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
