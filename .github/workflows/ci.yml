@@ -55,5 +55,3 @@ jobs:
 
       - name: Publish to npm
         run: bunx publint && bun publish --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
