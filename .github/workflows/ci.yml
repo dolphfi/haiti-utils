@@ -47,9 +47,7 @@ jobs:
         run: bun run build
 
       - name: Create .npmrc file
-        run: |
-          echo "@dolphfi_:registry=https://registry.npmjs.org/" > ./.npmrc
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ./.npmrc
+        run: echo "//registry.npmjs.org/:_authToken=\${{ secrets.NPM_TOKEN }}" > .npmrc
 
       - name: Publish to npm
         run: npm publish
