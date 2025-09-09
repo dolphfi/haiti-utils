@@ -46,14 +46,10 @@ jobs:
       - name: Build package
         run: bun run build
 
-      - name: Setup .npmrc file for publishing
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          registry-url: 'https://registry.npmjs.org'
-          scope: '@dolphfi_'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Create .npmrc file
+        run: |
+          echo "@dolphfi_:registry=https://registry.npmjs.org/" > ./.npmrc
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ./.npmrc
 
       - name: Publish to npm
         run: bunx publint && bun publish --no-git-checks
