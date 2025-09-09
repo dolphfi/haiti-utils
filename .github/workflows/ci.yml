@@ -46,6 +46,13 @@ jobs:
       - name: Build package
         run: bun run build
 
+      - name: Setup .npmrc file for publishing
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@dolphfi_'
+
       - name: Publish to npm
         run: bunx publint && bun publish --no-git-checks
         env:
