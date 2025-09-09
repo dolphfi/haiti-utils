@@ -7,6 +7,12 @@
   "description": "A simple utility package to get geographical data about Haiti, such as departments and communes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -24,13 +30,12 @@
     "geography",
     "postal-code",
     "phone-number"
-    
   ],
   "author": "Rodolph Phayendy Delon Fidèle",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dolphfi/haiti-utils.git"
+    "url": "git+https://github.com/dolphfi/haiti-utils.git"
   },
   "devDependencies": {
     "@types/bun": "latest",
