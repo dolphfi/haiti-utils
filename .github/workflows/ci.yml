@@ -46,8 +46,11 @@ jobs:
       - name: Build package
         run: bun run build
 
+      - name: Validate package with publint
+        run: bunx publint
+
       - name: Create .npmrc file
-        run: echo "//registry.npmjs.org/:_authToken=\${{ secrets.NPM_TOKEN }}" > .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
 
       - name: Publish to npm
-        run: npm publish
+        run: npm publish --access public
