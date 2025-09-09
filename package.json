@@ -21,7 +21,10 @@
     "departments",
     "communes",
     "utils",
-    "geography"
+    "geography",
+    "postal-code",
+    "phone-number"
+    
   ],
   "author": "Rodolph Phayendy Delon Fidèle",
   "license": "MIT",
