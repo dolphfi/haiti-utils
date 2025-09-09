@@ -52,4 +52,4 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ./.npmrc
 
       - name: Publish to npm
-        run: bunx publint && bun publish --no-git-checks
+        run: npm publish
