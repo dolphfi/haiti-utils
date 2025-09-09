@@ -1,0 +1,36 @@
+{
+  "name": "@dolphfi_/haiti-utils",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A simple utility package to get geographical data about Haiti, such as departments and communes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "haiti",
+    "departments",
+    "communes",
+    "utils",
+    "geography"
+  ],
+  "author": "Rodolph Phayendy Delon Fidèle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dolphfi/haiti-utils.git"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  }
+}
