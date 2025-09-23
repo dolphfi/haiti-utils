@@ -130,3 +130,9 @@ Formats a Haitian phone number into a consistent, readable format. If the number
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/dolphfi/haiti-utils/issues).
 
+
+## 💖 Sponsor
+
+Si ou jwenn pake **haiti-utils** itil, ou ka sipòte devlopman li.
+
+👉 [Become a Sponsor on GitHub](https://github.com/sponsors/dolphfi)
