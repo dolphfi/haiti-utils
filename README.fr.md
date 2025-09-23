@@ -129,3 +129,9 @@ Formate un numéro de téléphone haïtien dans un format cohérent et lisible. 
 ## Contribuer
 
 Les contributions, les problèmes et les demandes de fonctionnalités sont les bienvenus ! N'hésitez pas à consulter la [page des problèmes](https://github.com/dolphfi/haiti-utils/issues).
+
+## 💖 Sponsor
+
+Si ou jwenn pake **haiti-utils** itil, ou ka sipòte devlopman li.
+
+👉 [Become a Sponsor on GitHub](https://github.com/sponsors/dolphfi)

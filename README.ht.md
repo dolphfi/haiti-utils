@@ -129,3 +129,9 @@ Fòmate yon nimewo telefòn ayisyen nan yon fòma ki konsistan epi fasil pou li.
 ## Kontribisyon
 
 Kontribisyon, rapò ensèk, ak demann pou nouvo fonksyonalite yo akeyi! Ou lib pou w tcheke [paj pwoblèm yo](https://github.com/dolphfi/haiti-utils/issues).
+
+## 💖 Sponsor
+
+Si ou jwenn pake **haiti-utils** itil, ou ka sipòte devlopman li.
+
+👉 [Become a Sponsor on GitHub](https://github.com/sponsors/dolphfi)
